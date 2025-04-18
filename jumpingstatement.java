@@ -1,0 +1,39 @@
+public class jumpingstatement
+{
+    public static void main(String s[])
+    {
+        int i=0;
+        System.out.println("----Break----");
+        for(i=0;i<=5;i++)
+        {
+            if(i==4)
+            { 
+                break;
+            }
+            System.out.print(i);
+        }
+        System.out.println();
+        i=0;
+        System.out.println("----Continue----");
+        for(i=0;i<=5;i++)
+        {
+            if(i==4)
+            { 
+                continue;
+            }
+            System.out.print(i);
+        }
+        System.out.println();
+        i=0;
+        System.out.println("----Return----");
+        for(i=0;i<=5;i++)
+        {
+            if(i==4)
+            { 
+                return;
+            }
+            System.out.print(i);
+        }
+        System.out.println();
+    }
+}
